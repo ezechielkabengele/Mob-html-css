@@ -1,0 +1,100 @@
+/* body{
+    background-color: brown;
+} */
+ *{
+    margin: 0;
+    padding: 0;
+
+ }
+ header{
+    display: flex;
+    justify-content: space-around;
+    padding: 1.5% 10px;
+ }
+
+ header nav a {
+    color: black;
+    text-decoration: none;
+    padding-right: 15px;
+ }
+ header nav a:hover{
+    color: red;
+ } 
+ section{
+    margin: 0.5em 0;
+ }
+ section.sec1{
+    height: 500px;
+    width: 100%;
+    /* background-color: brown; */
+    background-image: url("/Html/Image/WhatsApp\ Image\ 2024-09-21\ at\ 21.37.56_9b9f8434.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center; */
+    text-align: center;  
+    
+ }
+ 
+ section.sec1 h3{
+    text-transform: capitalize;
+    margin-top: 25px;
+    margin-bottom: 15px
+ }
+ section.sec1 p{
+    text-transform: capitalize; 
+    font-weight: bold;
+    
+ }
+ section.sec1 button{
+    padding: 0.8em 14px;
+    background-color: rgb(130, 130, 250);
+    color: white;
+    outline: none;
+    border: none;
+ }
+ section.sec1 button:hover{
+    cursor: pointer;
+    background-color: blue;
+    transition: 0.2s;
+ }
+
+ footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(39, 38, 38);
+    color: white;
+    height: 200px;
+    text-align: center;
+    align-items: center;
+ }
+
+ footer a{
+    text-decoration: none;
+    color: white;
+ }
+
+ footer ul{
+    list-style: none;
+ }
+ footer ul{
+    display: flex;
+ }
+
+ footer ul li{
+    padding-right: 10px;
+ }
+
+ footer img{
+    height: 15px;
+    width: 15px;
+    object-fit: cover;
+ }
+ section.sec1{
+   padding: 800px 0 100px 0;
+ }
+header{
+   color:#42b326;
+ }
+ header.nav{
+   color: rgb(39, 51, 223);
+ }
